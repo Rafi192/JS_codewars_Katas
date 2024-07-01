@@ -1,0 +1,67 @@
+<!-- These are the resources that I used for helping in my project-->
+<!--https://www.w3schools.com/html/default.asp -->
+<!--https://www.w3schools.com/js/default.asp  -->
+<!--https://www.youtube.com/watch?v=Ln6y11vQDZQ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Address Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Address Book</h1>
+    </header>
+    <div id="contact-form">
+        <section id="new-contact">
+            <h2>Add Contact Information</h2>
+            <form id="add-contact-form" onsubmit="return validateForm()" method="post">
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="surname" placeholder="Surname">
+                <input type="text" id="phone" placeholder="Phone">
+                <input type="text" id="address" placeholder="Address">
+                <button type="submit" id="add-contact-btn">Add Contact</button>
+            </form>
+        </section>
+
+        <h2>Search Contacts</h2>
+        <div id="search-form">
+            <input type="text" id="search" placeholder="Search Contacts">
+            <button type="button" id="search-btn">Search</button>
+        </div>
+
+        <div id="contact-display">
+             <!-- Dynamically Update contacts -->
+            <h2 class="contact">Contacts</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rafi Hasan</td>
+                        <td>Rafi</td>
+                        <td>01571422556</td>
+                        <td>Shyamoly, Dhaka</td>
+                        <td><a href="#" class="btn-danger">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="contact-list">
+           
+        </div>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

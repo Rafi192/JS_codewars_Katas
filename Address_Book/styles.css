@@ -1,0 +1,129 @@
+/* Took help From these websites for the CSS implementation */
+/* https://www.w3schools.com/css/default.asp   */
+/* Reset default styles */
+/*https://www.quackit.com/css/css_color_codes.cfm   */
+
+/*Used this color Converter techniques from this site:-
+ https://www.w3schools.com/colors/colors_converter.asp */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+/* Contact form styles */
+#contact-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#new-contact h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#add-contact-form input[type="text"],
+#add-contact-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#add-contact-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Search form styles */
+#search-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-form input[type="text"],
+#search-form button {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#search-form button {
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Contact display styles */
+#contact-display {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact-display h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+thead {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.btn-danger {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: darkred;
+}
