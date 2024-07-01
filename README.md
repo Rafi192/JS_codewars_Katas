@@ -1,1 +1,1 @@
-# JS_codewars_Katas
+# JS_codewars
